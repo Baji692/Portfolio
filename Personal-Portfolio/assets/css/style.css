@@ -360,10 +360,22 @@ main {
   gap: 15px;
 }
 
+
 .avatar-box {
-  background: var(--bg-gradient-onyx);
-  border-radius: 20px;
-}
+    border-radius: 90%;
+  }
+
+ 
+  .avatar-box img {
+    width: 10px;
+    height: auto;
+    border-radius: 90%;
+    object-fit: cover;
+    border: 3px solid #ffffff;
+    /* Instagram pink/red */
+    padding: 2px;
+    
+  }
 
 .info-content .name {
   color: var(--white-2);
